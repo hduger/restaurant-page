@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(waffle.jpg);
+    background-size: cover;                      /* <------ */
+    background-repeat:no-repeat;  
+    background-position: center, center;           /* optional, center the image */
+    color: white;
+}
+
+.tabs  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+    background-color: white;
+    opacity: 30%;
+}
+
+.btn{
+    padding: 8px;
+    opacity: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
