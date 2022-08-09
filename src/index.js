@@ -1,7 +1,18 @@
 import pageLoad from "./pageload";
-// const container = document.getElementById('content');
-let name = 'hunter'
-// container.appendChild(pageLoad(name));
-console.log("hi hunter");
-console.log('you are the best');
-console.log('its true!!!!');
+import home from "./home"
+import menu from "./menu";
+import contact from "./contact";
+
+
+
+
+document.body.appendChild(pageLoad())
+
+const homeBtn = document.querySelector('.home');
+homeBtn.addEventListener('click', home)
+
+const menuBtn = document.querySelector('.menu')
+menuBtn.addEventListener('click', menu)
+
+const contactBtn = document.querySelector('.contact');
+contactBtn.addEventListener('click', contact)

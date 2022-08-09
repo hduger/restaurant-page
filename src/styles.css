@@ -25,7 +25,8 @@ body {
 }
 
 .btn{
-    padding: 8px;
+    padding: 10px;
+    width: 70px;
     opacity: 100%;
     background-color: black;
     color: white;
@@ -36,4 +37,9 @@ body {
     cursor: pointer;
     background-color: white;
     color: black;
+}
+
+.about  {
+    text-align: center;
+    margin-top: 2rem;
 }
